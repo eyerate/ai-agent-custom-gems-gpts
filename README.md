@@ -9,6 +9,7 @@ Each folder should follow the following structure:
 <folder>
   agent-prompt.md
   templates.md
+  README.md
 ```
 
 Use the Template folder as a base to copy and paste to create a new custom gem or gpt.
@@ -19,12 +20,13 @@ Use the Template folder as a base to copy and paste to create a new custom gem o
 2. Copy the contents from the Template folder into the new folder
 3. Edit `agent-prompt.md` to define the gem/gpt's core instructions and behavior
 4. Modify `templates.md` to include any specialized templates or formats the gem/gpt requires
+5. Modify `README.md` to include any specialized instructions or capabilities of this gem/gpt
 
 Always test and refine
-
 5. Test the gem/gpt by uploading to Gemini Advanced
 6. Refine the prompts based on testing results
 7. Update the agent-prompt.md and templates.md with improvements found during testing
+8. Update the README.md as needed to help clarify usage and capabilities of the gem/gpt
 
 
 ## Implementation on AI Platforms
